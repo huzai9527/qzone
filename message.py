@@ -14,7 +14,7 @@ driver.find_element_by_id('switcher_plogin').click()
 # 输入账号
 driver.find_element_by_id('u').send_keys('369212851')
 # 输入密码
-driver.find_element_by_id('p').send_keys('Zxh@199822.')
+driver.find_element_by_id('p').send_keys('Your password')
 # 点击登录
 driver.find_element_by_id('login_button').click()
 time.sleep(5)
